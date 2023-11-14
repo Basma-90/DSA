@@ -1,5 +1,5 @@
 #implement a queue using two stacks
-# tc of enqueue is O(1) and dequeue is O(1)
+# tc of enqueue is O(n) and dequeue is O(1)
 class stack:
     def __init__(self):
         self.items = []
