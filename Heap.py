@@ -80,7 +80,6 @@ if __name__=="__main__":
     heap.push(25)
     heap.push(30)
     heap.printHeap()
-    # 2, 5, 12, 8, 6, 14, 22, 19, 17, 10, 7, 37, 25, 30
     print("**********")
     heap2=Heap()
     heap2.push(2)
@@ -88,7 +87,6 @@ if __name__=="__main__":
     heap2.push(22)
     heap2.pop()
     heap2.printHeap()
-    # 5, 6, 12, 8, 7, 14, 22, 19, 17, 10, 30, 37, 25
     print("**********")
     heap3=Heap()
     heap3.push(2)
