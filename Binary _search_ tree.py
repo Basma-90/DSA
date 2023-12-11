@@ -77,13 +77,13 @@ class BST:
             self.inorder(root.right)
     
     def preorder(self,root):
-        if self.root is not None:
+        if root is not None:
             print(root.key)
             self.preorder(root.left)
             self.preorder(root.right)
         
     def postorder(self,root):
-        if self.root is not None:
+        if root is not None:
             self.postorder(root.left)
             self.postorder(root.right)
             print(root.key)
